@@ -3,6 +3,7 @@ import chart_studio.plotly as py
 import plotly.graph_objs as go
 import datetime
 from alpha_vantage.timeseries import TimeSeries
+# you have to enter your own alpha_vantage api key
 ts = TimeSeries(key='Y8GCMYVJEBS6N4DU', 
                 output_format='pandas')
 stock_code = input("Enter the stock ticker")
